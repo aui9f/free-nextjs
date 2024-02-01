@@ -1,7 +1,10 @@
 # compiled output
 /dist
 /node_modules
+<<<<<<< HEAD
 /.next
+=======
+>>>>>>> 0a5751bfa58860c5cecadf9b1e2b36fed3bfe56d
 
 # Logs
 logs
