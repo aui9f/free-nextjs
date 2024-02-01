@@ -1,0 +1,31 @@
+{
+  "name": "free-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aui9f/free-nextjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aui9f/free-nextjs/issues"
+  },
+  "homepage": "https://github.com/aui9f/free-nextjs#readme",
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.14",
+    "@types/react": "18.2.48",
+    "typescript": "5.3.3"
+  }
+}
