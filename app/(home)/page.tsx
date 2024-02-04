@@ -1,5 +1,7 @@
-export const metadata = {
-  title: 'Study Next.js',
+import { Metadata } from "next"
+
+export const metadata : Metadata= {
+  title: 'Home',
   description: 'Nomad Coders Study -- Next.js',
 }
 

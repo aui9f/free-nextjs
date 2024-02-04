@@ -1,9 +1,13 @@
+import { Metadata } from "next"
 import Navigation from "./components/navigation"
 
-// export const metadata = {
-//   title: 'Study Next.js',
-//   description: 'Nomad Coders Study -- Next.js',
-// }
+export const metadata: Metadata = {
+  title: {
+    template: '%s | Study Next.js',
+    default: 'Next Movies'
+  },
+  description: 'Nomad Coders Study -- Next.js',
+}
 
 export default function RootLayout({children,}: {children: React.ReactNode}) {
   return (
