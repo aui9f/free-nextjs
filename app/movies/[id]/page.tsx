@@ -20,8 +20,5 @@ export default async function Movie ({params:{id}}:{params:{id: string}}){
         <Suspense fallback={<p>Movie Infor Data Loading..</p>}>
             <Infor id={id}/>
         </Suspense>
-        
-        
-        
     </>
 }
