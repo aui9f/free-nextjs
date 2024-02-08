@@ -2,6 +2,7 @@
 import styles from "../styles/movie.module.css";
 import Movie from "../components/movies/movie";
 
+
 export const URL = `https://nomad-movies.nomadcoders.workers.dev/movies`;
 
 async function movieData(){

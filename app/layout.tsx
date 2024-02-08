@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import Navigation from "./components/navigation"
 import './styles/global.css'
 import style from './styles/main.module.css'
+
 export const metadata: Metadata = {
   title: {
     template: '%s | Study Next.js',
