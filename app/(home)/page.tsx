@@ -1,11 +1,10 @@
-import { Metadata } from "next"
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Nomad Coders Study -- Next.js",
+};
 
-export const metadata : Metadata= {
-  title: 'Home',
-  description: 'Nomad Coders Study -- Next.js',
-}
-
-export default function Page(){
-    return <p>Hello..</p>
+export default function Page() {
+  return <p>PAGE HOME</p>;
 }
